@@ -1,0 +1,3 @@
+if keyboard_check_pressed(vk_down) && place_meeting(self.x, self.y, oFretboard) {instance_destroy(self); oDataStore.multiplier +=1; oDataStore.fightScore1 = oDataStore.fightScore1 +1 * oDataStore.multiplier / oDataStore.deduction;}
+hspeed = song_speed;
+if x < oFretboard.x-15 {instance_destroy(self); oDataStore.multiplier = 1; instance_create_depth(50, 20, 0, oMissed); oDataStore.fightScore1 = oDataStore.fightScore1 -10}

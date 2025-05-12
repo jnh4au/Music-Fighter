@@ -1,0 +1,1 @@
+song_speed = -1;

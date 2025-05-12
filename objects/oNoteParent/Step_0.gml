@@ -1,0 +1,1 @@
+hspeed = song_speed;

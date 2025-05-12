@@ -1,0 +1,4 @@
+top 1 code: if keyboard_check_pressed(vk_up) && place_meeting(self.x, self.y, oFretboardOrGameController) {instance_destroy(self)}
+2nd line code: if keyboard_check_pressed(vk_right) && place_meeting(self.x, self.y, oFretboardOrGameController) {instance_destroy(self)}
+3rd line code: if keyboard_check_pressed(vk_left) && place_meeting(self.x, self.y, oFretboardOrGameController) {instance_destroy(self)}
+4th line code: if keyboard_check_pressed(vk_down) && place_meeting(self.x, self.y, oFretboardOrGameController) {instance_destroy(self)}
